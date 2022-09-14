@@ -1,0 +1,79 @@
+body{
+    background-color: #E5E5E5;
+}
+#logo{
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    bottom: 0%;
+}
+#telaInicial{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+}
+#iniciaJogo{
+    position: absolute;
+    width: 317px;
+    height: 100px;
+    left: 40%;
+    top: 40%;
+    background: #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+#inserePalavra{
+    position: absolute;
+    width: 317px;
+    height: 100px;
+    left: 40%;
+    top: 60%;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #0A3871;
+}
+#acertos{
+    position: absolute;
+    padding: 24px;
+    left: 30%;
+    top: 50%;
+    font-size: 80px;
+    gap: 8px;
+    color: #0A3871;
+}
+#erros{
+    position: absolute;
+    padding: 24px;
+    left: 30%;
+    top: 70%;
+    font-size: 50px;
+    gap: 8px;
+    color: red;
+}
+#fim{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    font-size: 90px;
+    gap: 8px;
+    color: red;
+
+}

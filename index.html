@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Challenge 2 - Joga da Forca</title>
+    <link rel="stylesheet" type="text/css" href="style_forca.css" />
+</head>
+<body>
+    <div id="logo"><img src="alura.png"></div>
+    <div id="telaInicial">
+        <input type="button" id="iniciaJogo" value="Começar Jogo !" onclick="escondeElementos('telaInicial')">
+        <input type="text" id="inserePalavra" placeholder="Inserir Nova Palavra no Jogo">
+    </div>
+    <div id="acertos">
+        <label id="saida"></label>
+    </div>
+    <div id="erros">   
+    </div>
+    <p id="fim"></p>
+    <canvas id="canvas" width="600" height="300"></canvas>
+</body>
+<script type="text/javascript" src="script_forca.js"></script>
+</html>
